@@ -13,6 +13,7 @@ class Carrito{
     //Variables de instancia
     private:
         Producto precioConcha;
+        int acumuladocarro;
     public:
         //Métodos del objeto
         Carrito();//Constructor
@@ -27,6 +28,7 @@ class Carrito{
 Carrito :: Carrito(){
     Producto precio ("",0);
     precioConcha = precio;
+    acumuladocarro = 0;
 }
 
 //Constructor que llena las variables de instancia
@@ -44,7 +46,8 @@ Producto Carrito :: get_precio(){
 //Función que suma el precio de los productos del carrito
 void Carrito::sumaprecio(){
     cout<<"\nTotal: ";
-    precioConcha.print();
+    acumuladocarro = acumuladocarro + precioConcha.get_precio();
+    cout<<acumuladocarro<<"\n"<<endl;
 }
 
 
