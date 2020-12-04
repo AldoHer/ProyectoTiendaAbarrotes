@@ -1,6 +1,6 @@
 # Proyecto Tienda Abarrotes
 
-Una tienda de abarrotes, programa donde ingresas tu nombre y dirección, y te despliega todos los productos disponibles en la tienda, posteriormente tú señalas si deseas ir al carrito para comprar algo por medio de ingresar el número que representa cada producto. O si deseas salir.
+Este programa tiene la finalidad de ser una tienda de abarrotes, en donde ingresas tu nombre, edad, correo electrónico y dirección, y te despliega un menú para acceder a la funcionalidad del programa, que te permite conocer y comprar todos los productos disponibles en la tienda, o si deseas salir.
 
 La funcionalidad de este programa consiste en ver la información nutrimental de los productos expuestos, además de ciertos atributos propuestos para cada tipo de objeto en este programa.
 
